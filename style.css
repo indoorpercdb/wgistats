@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    font-family: arial, sans-serif;
+}
+.title-container {
+    background-color: rgb(0, 255, 255);
+    border-bottom: 1px solid black;
+}
+.title {
+    text-align: center;
+}
+.navbar-container {
+    position: relative;
+    margin: 0px;
+}
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    overflow: hidden;
+    background-color: rgb(0, 255, 255);
+    border-bottom: 1px solid black;
+}
+.nbli {
+    text-align: center;
+    padding: 10px 12px;
+}
+.hnbli {
+    padding: 10px 12px;
+    float: left;
+    border-right: 1px solid black;
+}
+.hnbli:hover {
+    background-color: rgb(255, 0, 255);
+}
+.navbar-title {
+    padding: 10px 12px;
+    float: left;
+    margin-left: 435px;
+}
+.hrnbli {
+    padding: 10px 12px;
+    float: right;
+    border-left: 1px solid black;
+}
+.hrnbli:hover {
+    background-color: rgb(255, 0, 255);
+}
+.nbli:hover {
+    background-color: rgb(255, 0, 255);
+}
+.p-title {
+    text-align: center;
+}
+.scores-container {
+    background-color: rgb(255, 0, 255);
+}
+.scores {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {
+    background-color: rgb(0, 255, 255);
+}
+td {
+    text-align: center;
+}
+.spacer{
+    font-size: 50px;
+    color: white;
+}
